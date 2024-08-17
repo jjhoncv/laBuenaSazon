@@ -44,6 +44,7 @@
   </head>
   <body>
     <header class="header">
+      <div class="box-shadow"></div>
       <div class="contenedor">
         <div class="barra">
           <a href="index.html" class="logo">
@@ -66,32 +67,42 @@
       </div>
     </header>
 
-    <div class="contenedor contenido-principal">
+    <h3 class="centrar-texto">Platos Típicos</h3>
+    <div class="contenedor">
       <main class="blog">
-        <h3 class="centrar-texto">Platos Típicos</h3>
-        <article class="entrada">
-          <div class="entrada__imagen">
-            <img
-              src="img/carapulcra4_webp.webp"
-              alt="imagen blog"
-              loading="lazy"
-            />
+        <article class="entrada contenido-principal">
+          <div>
+            <div class="entrada__imagen">
+              <img
+                src="img/carapulcra4_webp.webp"
+                alt="imagen blog"
+                loading="lazy"
+              />
+            </div>
+            <div class="entrada__contenido">
+              <h4>Carapulcra con Sopa Seca</h4>
+            </div>
           </div>
-          <div class="entrada__contenido">
-            <h4>Carapulcra con Sopa Seca</h4>
-          </div>
-        </article>
-
-        <article class="entrada">
-          <div class="entrada__imagen">
-            <img src="img/pachamanca.jpg" alt="imagen blog" loading="lazy" />
-          </div>
-          <div class="entrada__contenido">
-            <h4>Pachamanca</h4>
+          <div>
+            <p class="dish-content">Este es el contenido</p>
           </div>
         </article>
 
-        <article class="entrada">
+        <article class="entrada contenido-principal">
+          <div>
+            <div class="entrada__imagen">
+              <img src="img/pachamanca.jpg" alt="imagen blog" loading="lazy" />
+            </div>
+            <div class="entrada__contenido">
+              <h4>Pachamanca</h4>
+            </div>
+          </div>
+          <div>
+            <p class="dish-content">Este es el contenido</p>
+          </div>
+        </article>
+
+        <!-- <article class="entrada">
           <div class="entrada__imagen">
             <img
               src="img/chancho-pollo-webp.webp"
@@ -124,7 +135,7 @@
           <div class="entrada__contenido">
             <h4>Sopa Seca con Papa a la Huancaina</h4>
           </div>
-        </article>
+        </article> -->
       </main>
     </div>
     <footer class="footer">
